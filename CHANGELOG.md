@@ -1,5 +1,74 @@
 # Changelog
 
+## [0.4.6](https://github.com/OKEAMAH/config-inspector/compare/v0.4.10...v0.4.6) (2024-06-01)
+
+
+### chore
+
+* release 0.0.1 ([f528193](https://github.com/OKEAMAH/config-inspector/commit/f528193c3e0174e045ff6b27d6630643a37d8fed))
+* release-please-mark ([53ce18b](https://github.com/OKEAMAH/config-inspector/commit/53ce18b3e2c644f81ad268dbf035305893d92a00))
+* release-please-mark ([0c2b0bc](https://github.com/OKEAMAH/config-inspector/commit/0c2b0bca06078086fa5388b12d4aeee229fb9756))
+* use pnpm in ci ([6d78bed](https://github.com/OKEAMAH/config-inspector/commit/6d78bede86e8ab9714bc482027612461c76cee06))
+
+
+### Features
+
+* add more filters ([ace554f](https://github.com/OKEAMAH/config-inspector/commit/ace554fb198694ae85fb99becab81ae70456a335))
+* align better with ESLint's design system ([#16](https://github.com/OKEAMAH/config-inspector/issues/16)) ([f0f8392](https://github.com/OKEAMAH/config-inspector/commit/f0f839222339850afb8b8b6fe4fc153ce49785f6))
+* allow filter recommended rules, close [#6](https://github.com/OKEAMAH/config-inspector/issues/6) ([92748ef](https://github.com/OKEAMAH/config-inspector/commit/92748ef3955ed705a2f067bca03ade08cd5ba759))
+* experiemental `Files` tab, close [#24](https://github.com/OKEAMAH/config-inspector/issues/24) ([2595b46](https://github.com/OKEAMAH/config-inspector/commit/2595b464685061baf51b419fe831ea3b38ebeb33))
+* improve files globbing display ([abab4f6](https://github.com/OKEAMAH/config-inspector/commit/abab4f657079030ab8f3f14a47daeac608f15446))
+* improve files globs matching display ([fd35b20](https://github.com/OKEAMAH/config-inspector/commit/fd35b20742ca0f60991fd61a35a3aff16cac446e))
+* improve how configures are resolved ([#26](https://github.com/OKEAMAH/config-inspector/issues/26)) ([264c58f](https://github.com/OKEAMAH/config-inspector/commit/264c58f7b3ea9107018d330ddf52b4e2f4570058))
+* improve RWD ([e4739df](https://github.com/OKEAMAH/config-inspector/commit/e4739dfa56a1d09f037d184d279b80055ec7678d))
+* improve ui and colors ([258c2b5](https://github.com/OKEAMAH/config-inspector/commit/258c2b50a2c1e1d28cc0378315a36231fb53df35))
+* migrate from `eslint-flat-config-viewer` ([#1](https://github.com/OKEAMAH/config-inspector/issues/1)) ([4acbd4f](https://github.com/OKEAMAH/config-inspector/commit/4acbd4f0a4206b3eddbe8f79f5c5320577c771ba))
+* shift code hue to match more with the theme ([9442360](https://github.com/OKEAMAH/config-inspector/commit/944236044a5d654bbc94c68bddab5c71e6669f17))
+* show loading indicator ([23c6135](https://github.com/OKEAMAH/config-inspector/commit/23c61359775eafecfd2990f542097ba9f030a712))
+* show options indicator ([dcd0071](https://github.com/OKEAMAH/config-inspector/commit/dcd00715238007a32de3fb044679a34a7b45a426))
+* show recommanded marker ([4164306](https://github.com/OKEAMAH/config-inspector/commit/4164306a97f59a798149a1fd39c36c20dfef5f15))
+* support `--base` option in build, fix [#41](https://github.com/OKEAMAH/config-inspector/issues/41) ([1156bb5](https://github.com/OKEAMAH/config-inspector/commit/1156bb51b278540a7da33cb704adfe1fb496f285))
+* support `build` command for static hosting ([#17](https://github.com/OKEAMAH/config-inspector/issues/17)) ([6a3aaed](https://github.com/OKEAMAH/config-inspector/commit/6a3aaedc25ec1ddd6fe292aa4629b965a6a81856))
+* support global install with cli name ([#4](https://github.com/OKEAMAH/config-inspector/issues/4)) ([8bcd0e9](https://github.com/OKEAMAH/config-inspector/commit/8bcd0e97681817ebd05f2d0717b2b70a0357485f))
+* syntax highlight for globs ([d2a2d60](https://github.com/OKEAMAH/config-inspector/commit/d2a2d60679b3a35d21b3fb64da16037762063a88))
+* ui improvements ([854759a](https://github.com/OKEAMAH/config-inspector/commit/854759ab11f4622cd202b11cde21f957c24d1b50))
+* use `bundle-require` instead of `jiti`, support top-level-await, fix [#11](https://github.com/OKEAMAH/config-inspector/issues/11) ([89534ef](https://github.com/OKEAMAH/config-inspector/commit/89534ef0ae9f2d04d784fa4309e935b16f3c86d7))
+* use custom server host, reduce deps ([#20](https://github.com/OKEAMAH/config-inspector/issues/20)) ([ad59019](https://github.com/OKEAMAH/config-inspector/commit/ad590194311e6df8546c7bd1d158a3ada4e4ae4c))
+
+
+### Bug Fixes
+
+* build script ([079e5d4](https://github.com/OKEAMAH/config-inspector/commit/079e5d415707ffe5501ec26c1a2e0c978e8533b9))
+* configs auto complete enter key, close [#35](https://github.com/OKEAMAH/config-inspector/issues/35) ([328ede6](https://github.com/OKEAMAH/config-inspector/commit/328ede639c752f8590f308f3b62c31a1f501486c))
+* configs search result ([ab6e72a](https://github.com/OKEAMAH/config-inspector/commit/ab6e72aaf8801040c86066b7fe828401c29929d2))
+* dev time endless ERROR [unhandledRejection] read ECONNRESET ([#50](https://github.com/OKEAMAH/config-inspector/issues/50)) ([dea7f77](https://github.com/OKEAMAH/config-inspector/commit/dea7f7754d10ac0518ae5d15bfcef9286862c83f))
+* file search specific toggle ([92269db](https://github.com/OKEAMAH/config-inspector/commit/92269dbb948644f28694faa25439dda1435318bb))
+* hide detail marker on safari ([#29](https://github.com/OKEAMAH/config-inspector/issues/29)) ([ad66b94](https://github.com/OKEAMAH/config-inspector/commit/ad66b940eacc788c24031d892fc8779dfdd07407))
+* improve cli output ([e27cb99](https://github.com/OKEAMAH/config-inspector/commit/e27cb99ac066c46377022f4c5d07050eff6aa277))
+* improve file groups ui ([5051244](https://github.com/OKEAMAH/config-inspector/commit/50512440326abe78f0461edaa082098c4ab2fac1))
+* improve ui contrast ([f56903a](https://github.com/OKEAMAH/config-inspector/commit/f56903a8ba08b55b08f9df943f312c767cebdfe0))
+* improve ui for globs ([2299639](https://github.com/OKEAMAH/config-inspector/commit/2299639645e1e846070d638b7b40536e78b111d7))
+* load `eslint` module from config file dir, close [#53](https://github.com/OKEAMAH/config-inspector/issues/53) ([770aded](https://github.com/OKEAMAH/config-inspector/commit/770aded1249d5e6c9b59b4d8743be16df101711b))
+* patch bundle-require ([179bc64](https://github.com/OKEAMAH/config-inspector/commit/179bc643871c97e4c57e423ee94d5b52d8c3f675))
+* port fallback ([31bb86c](https://github.com/OKEAMAH/config-inspector/commit/31bb86cf234b5729c9f2bfd77fb3ed625b614fac))
+* rules filter ([6cdfeca](https://github.com/OKEAMAH/config-inspector/commit/6cdfecab536bae6b39228a05268fb4e121d06811))
+* start watcher with `basePath` ([#39](https://github.com/OKEAMAH/config-inspector/issues/39)) ([e259020](https://github.com/OKEAMAH/config-inspector/commit/e2590201fef48329cc69301dfc0776e4d860b2d2))
+* support dynamic base url, fix [#33](https://github.com/OKEAMAH/config-inspector/issues/33) ([7e8e8bf](https://github.com/OKEAMAH/config-inspector/commit/7e8e8bf936da424fbf927023972343dcea57e1b7))
+* support eslint v9 as peerDeps ([ead64bd](https://github.com/OKEAMAH/config-inspector/commit/ead64bd632d46c11df079eda8e6dc3b5eb592607))
+* support only string globs ([c99f85e](https://github.com/OKEAMAH/config-inspector/commit/c99f85e07743e85593ff6ab03156515c216723c5))
+* support port range fallback ([c979872](https://github.com/OKEAMAH/config-inspector/commit/c979872f8a0902100b46390641db5199a84cadde))
+* support single object config export, fix [#38](https://github.com/OKEAMAH/config-inspector/issues/38) ([feffffe](https://github.com/OKEAMAH/config-inspector/commit/feffffe774c64c9e1bdbf8fdf80f957c2267c0c3))
+* tweak ui ([e5c7108](https://github.com/OKEAMAH/config-inspector/commit/e5c71081fc7bfaa8e91910fc8b8820815be442ed))
+* upgrade `bundle-require` ([78af88d](https://github.com/OKEAMAH/config-inspector/commit/78af88d81b500946fdeb3b84d221b598058ee9f2))
+* use minimatch without `matchBase:true` ([#57](https://github.com/OKEAMAH/config-inspector/issues/57)) ([4a89c48](https://github.com/OKEAMAH/config-inspector/commit/4a89c48e7b72949733c004589151ce018c8faecc))
+
+
+### Performance Improvements
+
+* cache Minimatch instance ([3bab7e8](https://github.com/OKEAMAH/config-inspector/commit/3bab7e8ae351f69c0b73b35abd29ab9607745129))
+* lazy load config items ([b42ee54](https://github.com/OKEAMAH/config-inspector/commit/b42ee54904537e2c35902e2d854bef99e7dd5541))
+* register api endpoint before static host ([0b1360c](https://github.com/OKEAMAH/config-inspector/commit/0b1360ce5cbac0d3e26d23bda61c3ada5c944226))
+
 ## [0.4.10](https://github.com/eslint/config-inspector/compare/v0.4.9...v0.4.10) (2024-06-01)
 
 
