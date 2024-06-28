@@ -1,5 +1,41 @@
 # Changelog
 
+## [0.5.1](https://github.com/eslint/config-inspector/compare/v0.5.0...v0.5.1) (2024-06-28)
+
+
+### Bug Fixes
+
+* correct condition on showing the rules list ([88d5719](https://github.com/eslint/config-inspector/commit/88d57190e52839afc99f6b1246abe188984a88ea))
+
+## [0.5.0](https://github.com/eslint/config-inspector/compare/v0.4.12...v0.5.0) (2024-06-22)
+
+
+### chore
+
+* release-please-mark ([e32a302](https://github.com/eslint/config-inspector/commit/e32a3027ec2b5cb179e74d1eb932070cb500fe95))
+
+
+### Bug Fixes
+
+* use `@eslint/config-array` to resolve paths ([#69](https://github.com/eslint/config-inspector/issues/69)) ([ca6070e](https://github.com/eslint/config-inspector/commit/ca6070e86bd6a5aa6f11cf1d9fc9bd0d9e956e97))
+
+## [0.4.12](https://github.com/eslint/config-inspector/compare/v0.4.11...v0.4.12) (2024-06-21)
+
+
+### Bug Fixes
+
+* button font size ([8e34306](https://github.com/eslint/config-inspector/commit/8e343060e1b9d1aab0e60a50cc6b8e2a4a104dad))
+* improve contrast on light mode ([919e774](https://github.com/eslint/config-inspector/commit/919e774fb2844a67aab5e6f9784aeb5e9f2d3f52))
+* prepend eslint default configs ([#66](https://github.com/eslint/config-inspector/issues/66)) ([4ef77d9](https://github.com/eslint/config-inspector/commit/4ef77d92166544b8b09d3ca1dae3143210484efe))
+
+## [0.4.11](https://github.com/eslint/config-inspector/compare/v0.4.10...v0.4.11) (2024-06-11)
+
+
+### Bug Fixes
+
+* alignment hostname ([#61](https://github.com/eslint/config-inspector/issues/61)) ([1546667](https://github.com/eslint/config-inspector/commit/15466676f58bc8f72ccc9e8b012eb589dc78bb39))
+* Better handling for long config names ([#60](https://github.com/eslint/config-inspector/issues/60)) ([055a667](https://github.com/eslint/config-inspector/commit/055a667c75a7f015177c1a9cda76287c4b60fd0f))
+
 ## [0.4.10](https://github.com/eslint/config-inspector/compare/v0.4.9...v0.4.10) (2024-06-01)
 
 
